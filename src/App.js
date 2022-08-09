@@ -6,6 +6,7 @@
 // import Example from "./Example";
 // import { ExampleProvider } from "./TestContext";
 // import AxiosVsFetch from "./AxiosVsFetch";
+import "./App.css";
 
 //linkedin challenges:
 import ColorRenderer from "./ColorRenderer/ColorRenderer";
@@ -13,7 +14,7 @@ import DarkMode from "./DarkMode/DarkMode";
 import FormValidator from "./FormValidator/FormValidator";
 import DogPics from "./DogPics/DogPics";
 import ScoreKeeper from "./ScoreKeeper/ScoreKeeper";
-import "./App.css";
+import ToggleWindowEvent from "./ToggleWindowEvent/ToggleWindowEvent";
 
 function App() {
   return (
@@ -26,8 +27,8 @@ function App() {
       {/* <FormValidator /> */}
       {/* <DogPics />*/}
 
-      <ScoreKeeper />
-
+      {/* <ScoreKeeper /> */}
+      <ToggleWindowEvent />
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
