@@ -15,7 +15,8 @@ import FormValidator from "./FormValidator/FormValidator";
 import DogPics from "./DogPics/DogPics";
 import ScoreKeeper from "./ScoreKeeper/ScoreKeeper";
 import ToggleWindowEvent from "./ToggleWindowEvent/ToggleWindowEvent";
-import ColorPicker from "./ToggleWindowEvent/ColorPicker/ColorPicker";
+import ColorPicker from "./ColorPicker/ColorPicker";
+import PixelArt from "./PixelArt/PixelArt";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
 
       {/* <ScoreKeeper /> */}
       {/* <ToggleWindowEvent />  */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+      <PixelArt />
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
