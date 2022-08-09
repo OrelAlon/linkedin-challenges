@@ -18,6 +18,7 @@ import ToggleWindowEvent from "./ToggleWindowEvent/ToggleWindowEvent";
 import ColorPicker from "./ColorPicker/ColorPicker";
 import PixelArt from "./PixelArt/PixelArt";
 import { SimpleCalculator } from "./SimpleCalculator/SimpleCalculator";
+import FocusInput from "./FocusInput/FocusInput";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <ToggleWindowEvent />  */}
       {/* <ColorPicker /> */}
       {/* <PixelArt /> */}
-      <SimpleCalculator />
+      {/* <SimpleCalculator /> */}
+      <FocusInput />
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
