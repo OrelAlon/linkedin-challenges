@@ -17,6 +17,7 @@ import ScoreKeeper from "./ScoreKeeper/ScoreKeeper";
 import ToggleWindowEvent from "./ToggleWindowEvent/ToggleWindowEvent";
 import ColorPicker from "./ColorPicker/ColorPicker";
 import PixelArt from "./PixelArt/PixelArt";
+import { SimpleCalculator } from "./SimpleCalculator/SimpleCalculator";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <ScoreKeeper /> */}
       {/* <ToggleWindowEvent />  */}
       {/* <ColorPicker /> */}
-      <PixelArt />
+      {/* <PixelArt /> */}
+      <SimpleCalculator />
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
