@@ -12,7 +12,7 @@ import ColorRenderer from "./ColorRenderer/ColorRenderer";
 import DarkMode from "./DarkMode/DarkMode";
 import FormValidator from "./FormValidator/FormValidator";
 import DogPics from "./DogPics/DogPics";
-
+import ScoreKeeper from "./ScoreKeeper/ScoreKeeper";
 import "./App.css";
 
 function App() {
@@ -24,7 +24,10 @@ function App() {
       {/* <ColorRenderer /> */}
       {/* <DarkMode /> */}
       {/* <FormValidator /> */}
-      <DogPics />
+      {/* <DogPics />*/}
+
+      <ScoreKeeper />
+
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
