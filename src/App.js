@@ -21,6 +21,7 @@ import { SimpleCalculator } from "./SimpleCalculator/SimpleCalculator";
 import FocusInput from "./FocusInput/FocusInput";
 import ShoppingCart from "./ShoppingCart/ShoppingCart";
 import PixelArt2 from "./PixelArt2/PixelArt2";
+import { UseReducer } from "./UseReducer/UseReducer";
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       {/* <FocusInput /> */}
 
       {/* <ShoppingCart /> */}
-      <PixelArt2 />
+      {/* <PixelArt2 /> */}
+      <UseReducer />
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
