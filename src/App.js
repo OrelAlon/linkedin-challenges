@@ -22,38 +22,50 @@ import FocusInput from "./FocusInput/FocusInput";
 import ShoppingCart from "./ShoppingCart/ShoppingCart";
 import PixelArt2 from "./PixelArt2/PixelArt2";
 import { UseReducer } from "./UseReducer/UseReducer";
+import UseContext from "./UseContext/UseContext";
+import { createContext } from "react";
+
+export const NamesContext = createContext();
 
 function App() {
+  const names = [
+    { id: "1", fName: "orel" },
+    { id: "2", fName: "tal" },
+    { id: "3", fName: "ofir" },
+  ];
   return (
     // <ExampleProvider>
-    <div className='App'>
-      <h3>linkedin challenges: </h3>
+    <NamesContext.Provider value={{ names }}>
+      <div className='App'>
+        <h3>linkedin challenges: </h3>
 
-      {/* <ColorRenderer /> */}
-      {/* <DarkMode /> */}
-      {/* <FormValidator /> */}
-      {/* <DogPics />*/}
+        {/* <ColorRenderer /> */}
+        {/* <DarkMode /> */}
+        {/* <FormValidator /> */}
+        {/* <DogPics />*/}
 
-      {/* <ScoreKeeper /> */}
-      {/* <ToggleWindowEvent />  */}
-      {/* <ColorPicker /> */}
-      {/* <PixelArt /> */}
-      {/* <SimpleCalculator /> */}
-      {/* <FocusInput /> */}
+        {/* <ScoreKeeper /> */}
+        {/* <ToggleWindowEvent />  */}
+        {/* <ColorPicker /> */}
+        {/* <PixelArt /> */}
+        {/* <SimpleCalculator /> */}
+        {/* <FocusInput /> */}
 
-      {/* <ShoppingCart /> */}
-      {/* <PixelArt2 /> */}
-      <UseReducer />
-      {/*  */}
-      {/* <CounterOne /> */}
-      {/* <CounterTwo /> */}
-      {/* <CounterThree /> */}
-      {/* <DataFetchingOne /> */}
-      {/* <DataFetchingTwo /> */}
-      {/* <Example /> */}
-      {/* <AxiosVsFetch /> */}
-    </div>
-    // </ExampleProvider>
+        {/* <ShoppingCart /> */}
+        {/* <PixelArt2 /> */}
+        {/* <UseReducer /> */}
+        <UseContext />
+        {/*  */}
+        {/* <CounterOne /> */}
+        {/* <CounterTwo /> */}
+        {/* <CounterThree /> */}
+        {/* <DataFetchingOne /> */}
+        {/* <DataFetchingTwo /> */}
+        {/* <Example /> */}
+        {/* <AxiosVsFetch /> */}
+      </div>
+      {/* // </ExampleProvider> */}
+    </NamesContext.Provider>
   );
 }
 
