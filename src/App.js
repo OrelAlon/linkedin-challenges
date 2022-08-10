@@ -19,6 +19,8 @@ import ColorPicker from "./ColorPicker/ColorPicker";
 import PixelArt from "./PixelArt/PixelArt";
 import { SimpleCalculator } from "./SimpleCalculator/SimpleCalculator";
 import FocusInput from "./FocusInput/FocusInput";
+import ShoppingCart from "./ShoppingCart/ShoppingCart";
+import PixelArt2 from "./PixelArt2/PixelArt2";
 
 function App() {
   return (
@@ -36,7 +38,10 @@ function App() {
       {/* <ColorPicker /> */}
       {/* <PixelArt /> */}
       {/* <SimpleCalculator /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+
+      {/* <ShoppingCart /> */}
+      <PixelArt2 />
       {/*  */}
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
